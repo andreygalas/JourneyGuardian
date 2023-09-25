@@ -60,6 +60,12 @@ namespace ASP.NET_CRUD_APP.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                trip.TotalMiles = trip.EndingMiles - trip.StartingMiles;
+
+                trip.TotalPay = (trip.TotalMiles * 0.50m) + (trip.Stops * 22);
+
+
                 _context.Add(trip);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
