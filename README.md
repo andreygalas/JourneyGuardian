@@ -1,1 +1,3 @@
-# TripBuddy 2024 .NET 7 CRUD App 
+# Journey Guardian
+Journey Guardian
+ 2024 .NET 7 CRUD App 
