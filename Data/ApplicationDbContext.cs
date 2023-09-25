@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ASP.NET_CRUD_APP.Models;
 
 namespace ASP.NET_CRUD_APP.Data
 {
@@ -9,5 +10,6 @@ namespace ASP.NET_CRUD_APP.Data
             : base(options)
         {
         }
+        public DbSet<ASP.NET_CRUD_APP.Models.Trip> Trip { get; set; } = default!;
     }
 }
