@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ASP.NET CRUD APP.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ASP.NET CRUD APP.bundle.scp.css"
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TripBuddy2024.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TripBuddy2024.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ASP.NET CRUD APP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TripBuddy2024.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ASP.NET CRUD APP.props",
-      "PackagePath": "build\\ASP.NET CRUD APP.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TripBuddy2024.props",
+      "PackagePath": "build\\TripBuddy2024.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ASP.NET CRUD APP.props",
-      "PackagePath": "buildMultiTargeting\\ASP.NET CRUD APP.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TripBuddy2024.props",
+      "PackagePath": "buildMultiTargeting\\TripBuddy2024.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ASP.NET CRUD APP.props",
-      "PackagePath": "buildTransitive\\ASP.NET CRUD APP.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TripBuddy2024.props",
+      "PackagePath": "buildTransitive\\TripBuddy2024.props"
     }
   ],
   "ElementsToRemove": []

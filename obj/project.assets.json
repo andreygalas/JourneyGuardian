@@ -11728,9 +11728,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\ASP.NET CRUD APP.csproj",
-      "projectName": "ASP.NET CRUD APP",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\ASP.NET CRUD APP.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\TripBuddy2024.csproj",
+      "projectName": "TripBuddy2024",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\TripBuddy2024.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\obj\\",
       "projectStyle": "PackageReference",
