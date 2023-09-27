@@ -9,6 +9,8 @@
         public decimal TotalMiles { get; set; }
         public decimal Stops { get; set; }
         public decimal TotalPay { get; set;}
+        public int Pallets { get; set; }
+        public bool IsTeamRoute { get; set; }
 
     }
 }

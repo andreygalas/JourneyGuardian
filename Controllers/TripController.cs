@@ -56,14 +56,14 @@ namespace ASP.NET_CRUD_APP.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,StartingMiles,EndingMiles,TotalMiles,Stops,TotalPay")] Trip trip)
+        public async Task<IActionResult> Create([Bind("Id,Name,StartingMiles,EndingMiles,TotalMiles,Stops,TotalPay, Pallets")] Trip trip)
         {
             if (ModelState.IsValid)
             {
 
                 trip.TotalMiles = trip.EndingMiles - trip.StartingMiles;
 
-                trip.TotalPay = (trip.TotalMiles * 0.50m) + (trip.Stops * 22);
+                trip.TotalPay = (trip.TotalMiles * 0.51m) + (trip.Stops * 22) + (trip.Pallets * 1);
 
 
                 _context.Add(trip);

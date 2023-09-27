@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I53cPFY6Wce90vVpkxc6OTi5wm7nCNRi6fB/8UDhBk1q8mBf+jM+7r50Us3/cjQ0snWg0QCgsO+XgWpiazh1/w==",
+  "dgSpecHash": "aznKn0CELnu58e+m96MXLCDPjVU+E3Gb4KPUsjclV8DitpRO4d6sslCt4pLiMQ+8JXU4YJZQ34I8siYvBiykHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\TripBuddy2024.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\2024.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
