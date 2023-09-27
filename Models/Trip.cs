@@ -11,6 +11,7 @@
         public decimal TotalPay { get; set;}
         public int Pallets { get; set; }
         public bool IsTeamRoute { get; set; }
+        public decimal SuperStop { get; set; }
 
     }
 }

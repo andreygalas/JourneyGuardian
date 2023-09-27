@@ -4,6 +4,7 @@ using ASP.NET_CRUD_APP.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ASP.NET_CRUD_APP.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230927032128_addingbool")]
+    partial class addingbool
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,9 +49,6 @@ namespace ASP.NET_CRUD_APP.Data.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("Stops")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("SuperStop")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("TotalMiles")
