@@ -11,5 +11,6 @@ namespace ASP.NET_CRUD_APP.Data
         {
         }
         public DbSet<ASP.NET_CRUD_APP.Models.Trip> Trip { get; set; } = default!;
+        public DbSet<ASP.NET_CRUD_APP.Models.DotAudit> DotAudit { get; set; } = default!;
     }
 }

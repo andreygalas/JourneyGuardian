@@ -1,0 +1,149 @@
+﻿@model IEnumerable<ASP.NET_CRUD_APP.Models.DotAudit>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tractor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DriversLicense)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DotCard)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExtraLogBook)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PitCard)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tablet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DvirBook)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Registration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InsuranceCard)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ifta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogBook)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EldGuide)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PermitBook)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostAccidentKit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BlankAccidentReport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OregonFuelPermit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DriverSignature)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tractor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DriversLicense)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DotCard)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExtraLogBook)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PitCard)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tablet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvirBook)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Registration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InsuranceCard)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ifta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LogBook)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EldGuide)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PermitBook)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostAccidentKit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlankAccidentReport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OregonFuelPermit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DriverSignature)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

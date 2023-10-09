@@ -1,0 +1,138 @@
+﻿@model ASP.NET_CRUD_APP.Models.DotAudit
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DotAudit</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tractor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tractor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DriversLicense)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DriversLicense)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DotCard)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DotCard)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ExtraLogBook)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ExtraLogBook)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PitCard)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PitCard)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tablet)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tablet)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DvirBook)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DvirBook)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Registration)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Registration)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.InsuranceCard)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.InsuranceCard)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ifta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ifta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LogBook)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LogBook)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EldGuide)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EldGuide)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PermitBook)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PermitBook)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PostAccidentKit)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PostAccidentKit)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BlankAccidentReport)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BlankAccidentReport)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OregonFuelPermit)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OregonFuelPermit)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DriverSignature)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DriverSignature)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
