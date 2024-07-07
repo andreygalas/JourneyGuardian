@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASP.NET_CRUD_APP.Data;
 using ASP.NET_CRUD_APP.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASP.NET_CRUD_APP.Controllers
 {
@@ -20,6 +21,7 @@ namespace ASP.NET_CRUD_APP.Controllers
         }
 
         // GET: DotAudit
+        [Authorize]
         public async Task<IActionResult> Index()
         {
               return _context.DotAudit != null ? 

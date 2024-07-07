@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASP.NET_CRUD_APP.Data;
 using ASP.NET_CRUD_APP.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASP.NET_CRUD_APP.Controllers
 {
@@ -19,6 +20,7 @@ namespace ASP.NET_CRUD_APP.Controllers
             _context = context;
         }
 
+        [Authorize]
         // GET: Trip
         public async Task<IActionResult> Index()
         {
@@ -26,6 +28,7 @@ namespace ASP.NET_CRUD_APP.Controllers
                           View(await _context.Trip.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.Trip'  is null.");
         }
+
 
         // GET: Trip/Details/5
         public async Task<IActionResult> Details(int? id)
