@@ -11728,11 +11728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\2024.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\CodingStuff\\JourneyGuardian\\2024.csproj",
       "projectName": "2024",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\2024.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\CodingStuff\\JourneyGuardian\\2024.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Desktop\\CodingStuff\\JourneyGuardian\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

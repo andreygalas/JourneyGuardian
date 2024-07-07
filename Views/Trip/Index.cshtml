@@ -11,74 +11,40 @@
 </p>
 
 <div class="table-responsive">
-    <table class="table table-striped">
-        <thead>
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="thead-dark">
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Id)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Name)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.StartingMiles)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.EndingMiles)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.TotalMiles)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Stops)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.TotalPay)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Pallets)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.SuperStop)
-                </th>
-                <th></th>
+                <th class="d-table-cell">Id</th>
+                <th class="d-table-cell">Name</th>
+                <th class="d-table-cell">Starting Miles</th>
+                <th class="d-none d-md-table-cell">Ending Miles</th>
+                <th class="d-none d-md-table-cell">Total Miles</th>
+                <th class="d-none d-md-table-cell">Stops</th>
+                <th class="d-none d-md-table-cell">Total Pay</th>
+                <th class="d-none d-md-table-cell">Pallets</th>
+                <th class="d-none d-md-table-cell">Super Stop</th>
+                <th class="d-table-cell">Actions</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Id)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.StartingMiles)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EndingMiles)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.TotalMiles)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Stops)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.TotalPay)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Pallets)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.SuperStop)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <td class="d-table-cell">@Html.DisplayFor(modelItem => item.Id)</td>
+                    <td class="d-table-cell">@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td class="d-table-cell">@Html.DisplayFor(modelItem => item.StartingMiles)</td>
+                    <td class="d-none d-md-table-cell">@Html.DisplayFor(modelItem => item.EndingMiles)</td>
+                    <td class="d-none d-md-table-cell">@Html.DisplayFor(modelItem => item.TotalMiles)</td>
+                    <td class="d-none d-md-table-cell">@Html.DisplayFor(modelItem => item.Stops)</td>
+                    <td class="d-none d-md-table-cell">@Html.DisplayFor(modelItem => item.TotalPay)</td>
+                    <td class="d-none d-md-table-cell">@Html.DisplayFor(modelItem => item.Pallets)</td>
+                    <td class="d-none d-md-table-cell">@Html.DisplayFor(modelItem => item.SuperStop)</td>
+                    <td class="d-table-cell">
+                        <div class="btn-group" role="group">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                        </div>
                     </td>
                 </tr>
             }

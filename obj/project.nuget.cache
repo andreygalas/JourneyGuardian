@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aznKn0CELnu58e+m96MXLCDPjVU+E3Gb4KPUsjclV8DitpRO4d6sslCt4pLiMQ+8JXU4YJZQ34I8siYvBiykHA==",
+  "dgSpecHash": "CbjelJMhgldVhzGYQKlaCrpkaA36IHLy2bw91wEcR/5Tgp+n0bt+Vw8sEKk6r0BSRbtNczkKqwbImanZ44SSCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\coding apps\\ASP.NET CRUD APP\\2024.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\CodingStuff\\JourneyGuardian\\2024.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
